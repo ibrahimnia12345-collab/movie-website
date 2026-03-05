@@ -1,123 +1,65 @@
-/* GOOGLE FONT + GENERAL PAGE STYLE */
+/* GENERAL PAGE STYLE */
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
   margin: 0;
-  background-color: #111;
-  color: white;
   line-height: 1.6;
 }
 
-
 /* HEADER */
 
-.site-header {
+header {
   text-align: center;
-  padding: 30px;
-  background-color: #1a1a1a;
+  padding: 25px;
 }
 
-.site-header h1 {
+header h1 {
   margin: 0;
-  font-size: 36px;
 }
-
 
 /* NAVIGATION */
 
-.site-nav {
-  background-color: #222;
-}
-
-.site-nav ul {
+nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
+  gap: 25px;
+  padding: 0;
 }
 
-.site-nav li {
-  margin: 0;
-}
-
-.site-nav a {
-  display: block;
-  padding: 15px 25px;
-  text-decoration: none;
+nav a {
   color: white;
+  text-decoration: none;
   font-weight: 500;
-  transition: background 0.3s;
 }
 
-/* ROLLOVER EFFECT */
-
-.site-nav a:hover {
-  background-color: #c62828;
+nav a:hover {
+  color: #c62828;
 }
 
-
-/* PAGE CONTENT AREA */
+/* MAIN CONTAINER */
 
 .container {
-  padding: 30px;
   max-width: 1100px;
   margin: auto;
+  padding: 20px;
 }
 
-
-/* MULTI COLUMN LAYOUT */
+/* TWO COLUMN LAYOUT */
 
 .two-column {
   display: flex;
-  gap: 25px;
+  gap: 30px;
 }
 
 .card {
-  background-color: #1c1c1c;
-  padding: 20px;
-  border-radius: 8px;
   flex: 1;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
 }
-
-
-/* IMAGES */
-
-img {
-  max-width: 100%;
-  border-radius: 6px;
-}
-
-figure {
-  margin: 0;
-}
-
-figcaption {
-  font-size: 0.9em;
-  color: #ccc;
-  margin-top: 8px;
-}
-
-
-/* TABLE STYLING */
-
-.movie-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-.movie-table th,
-.movie-table td {
-  border: 1px solid #444;
-  padding: 10px;
-  text-align: left;
-}
-
-.movie-table th {
-  background-color: #333;
-}
-
 
 /* LISTS */
 
@@ -125,6 +67,13 @@ ul {
   padding-left: 20px;
 }
 
+/* IMAGES & GIFS */
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
 
 /* BLOCKQUOTE */
 
@@ -136,6 +85,31 @@ blockquote {
   margin: 25px 0;
 }
 
+/* TABLE STYLE */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  border-bottom: 2px solid rgba(255,255,255,0.4);
+  font-weight: bold;
+}
+
+td {
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+tr:hover {
+  background-color: rgba(255,255,255,0.06);
+}
 
 /* FOOTER */
 
