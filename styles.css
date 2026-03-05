@@ -1,0 +1,148 @@
+/* GOOGLE FONT + GENERAL PAGE STYLE */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #111;
+  color: white;
+  line-height: 1.6;
+}
+
+
+/* HEADER */
+
+.site-header {
+  text-align: center;
+  padding: 30px;
+  background-color: #1a1a1a;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+
+/* NAVIGATION */
+
+.site-nav {
+  background-color: #222;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.site-nav li {
+  margin: 0;
+}
+
+.site-nav a {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+/* ROLLOVER EFFECT */
+
+.site-nav a:hover {
+  background-color: #c62828;
+}
+
+
+/* PAGE CONTENT AREA */
+
+.container {
+  padding: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+
+/* MULTI COLUMN LAYOUT */
+
+.two-column {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+
+/* IMAGES */
+
+img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #ccc;
+  margin-top: 8px;
+}
+
+
+/* TABLE STYLING */
+
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.movie-table th,
+.movie-table td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+.movie-table th {
+  background-color: #333;
+}
+
+
+/* LISTS */
+
+ul {
+  padding-left: 20px;
+}
+
+
+/* BLOCKQUOTE */
+
+blockquote {
+  border-left: 5px solid #c62828;
+  padding-left: 15px;
+  font-style: italic;
+  color: #ddd;
+  margin: 25px 0;
+}
+
+
+/* FOOTER */
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  margin-top: 40px;
+  font-size: 14px;
+}
